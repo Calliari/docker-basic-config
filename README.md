@@ -32,7 +32,7 @@ docker run -p 3000:80 nginx
 
 ```
 clt + c
-
+```
 * Run docker in the background
 
 ```
@@ -61,7 +61,7 @@ docker stop $(docker ps -a -q)  "for all containers"
 docker-conpose up
 ```
 
-*  * Stops docker in the background
+* Stops docker in the background
 
 ```
 docker-conpose down
