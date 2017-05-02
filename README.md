@@ -58,12 +58,12 @@ docker stop $(docker ps -a -q)  "for all containers"
 * Build and install al configurations that is defined in the dockerfile
 
 ```
-docker-conpose up
+docker-compose up
 ```
 
 * Stops docker in the background
 
 ```
-docker-conpose down
+docker-compose down
 ```
 
